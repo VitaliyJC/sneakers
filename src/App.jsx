@@ -68,7 +68,7 @@ function App() {
           "https://63ce906fd2e8c29a9bda1d7b.mockapi.io/cart",
           obj
         ); //отправляем на бэк
-        setCartItems((prev) => [...prev, data]); //предыдущее состояние плюч новый обьект obj
+        setCartItems((prev) => [...prev, data]); //предыдущее состояние плюc новый обьект obj
       }
     } catch (error) {
       alert("Ошибка при добавлении товара в корзину");
